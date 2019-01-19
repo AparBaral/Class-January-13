@@ -1,0 +1,8 @@
+name = input("Enter your name : ")
+_age = input("Enter your age : ")
+print("Your name is : " +  name + "\nYour age is : " + _age)
+print("Your name is {} and your age is {}".format(name, _age))
+print("Your name is {0} and your age is {1}. \n Happy Birthday {0}".format(name, _age))
+print("Your name is {name_key} and your age is {_age_key}".format(name_key=name, _age_key=_age))
+print(f"Your name is {name} and your age is {_age}")
+print(r"Your name is {name} and your age is {_age}")
